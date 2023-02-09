@@ -1,0 +1,19 @@
+{
+	"name": "emotion-repro",
+	"version": "0.0.0",
+	"description": "An Emotion issue repro",
+	"engines": {
+		"node": ">=18.13.0"
+	},
+	"private": true,
+	"scripts": {
+		"build:dev": "npx webpack --mode development",
+		"build:prod": "npx webpack --mode production"
+	},
+	"devDependencies": {
+		"webpack": "^5.74.0"
+	},
+	"dependencies": {
+		"@emotion/css": "^11.1.3"
+	}
+}
